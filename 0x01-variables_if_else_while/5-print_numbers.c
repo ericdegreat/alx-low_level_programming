@@ -2,22 +2,17 @@
 
 
 /**
- * main - program that prints the alphabet in lowercase and upper case
+ * main -  program that prints all single digit numbers
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-	char letter;
+	int a;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-
-	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
-	}
-
+	for (a = 0; a < 10; a++)
+		printf("%d", a);
 	putchar('\n');
 
 	return (0);
